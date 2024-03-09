@@ -1,0 +1,40 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --primary-bg-color: #141414;
+  --secondary-bg-color: #1f1f1f;
+  --tertiary-bg-color: #333333;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #c0e04f;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
